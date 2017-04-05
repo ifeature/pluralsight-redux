@@ -3,9 +3,10 @@ import TextInput from '../common/TextInput';
 import SelectInput from '../common/SelectInput';
 
 function CourseForm({ course, allAuthors, onSave, onChange, saving, errors }) {
+    console.log(React.createElement('h1', null, React.createElement('span', null, 'Bye')));
     return (
         <form>
-            <h1>Manage Couse</h1>
+            <h1>Manage Course</h1>
             <TextInput
                 name="title"
                 label="Title"
